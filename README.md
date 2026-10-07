@@ -1,6 +1,6 @@
 # 🛒 Shopping Cart & Admin Panel (C# WinForms)
 
-**🇬🇧 English** · [🇹🇷 Türkçe](#alışveriş-sistemi-ve-admin-paneli-uygulaması)
+**<img src="https://raw.githubusercontent.com/canayglr/canayglr/main/assets/flags/gb.png" height="14" alt="EN"/> English** · [<img src="https://raw.githubusercontent.com/canayglr/canayglr/main/assets/flags/tr.png" height="14" alt="TR"/> Türkçe](#alışveriş-sistemi-ve-admin-paneli-uygulaması)
 
 A Windows Forms desktop app with a **shopping cart** for customers and an **admin panel** for managing products. It is built around OOP principles: `Urun` (product), `Sepet` (cart) and `Siparis` (order) classes, plus an `ISiparisVerilebilir` interface that handles **stock checks** before an order is placed.
 
