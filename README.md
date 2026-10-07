@@ -1,3 +1,16 @@
+# 🛒 Shopping Cart & Admin Panel (C# WinForms)
+
+**🇬🇧 English** · [🇹🇷 Türkçe](#alışveriş-sistemi-ve-admin-paneli-uygulaması)
+
+A Windows Forms desktop app with a **shopping cart** for customers and an **admin panel** for managing products. It is built around OOP principles: `Urun` (product), `Sepet` (cart) and `Siparis` (order) classes, plus an `ISiparisVerilebilir` interface that handles **stock checks** before an order is placed.
+
+- Add/remove items, live cart total, clear cart
+- Order flow with per-item stock validation
+- Admin panel: add & edit products; changes are reflected instantly in the shop UI
+- Open `Proje.sln` in Visual Studio 2022 (.NET 9) and run
+
+---
+
 # Alışveriş Sistemi ve Admin Paneli Uygulaması
 ## Proje Genel Bakış
 Bu Windows Forms uygulaması, temel bir e-ticaret sistemi ve yönetim panelinden oluşmaktadır. Uygulama üç ana arayüz (AdminPanel, Form1 ve UrunDuzenle) ve dört temel sınıf (Sepet, Siparis, Urun ve ISiparisVerilebilir arayüzü) üzerine inşa edilmiştir. Kullanıcılar ürünleri görüntüleyebilir, sepete ekleyebilir ve sipariş oluşturabilirken, yöneticiler ürün yönetimi yapabilmektedir.
